@@ -1,0 +1,60 @@
+body{
+
+    margin: 1cm;
+}
+
+div{
+    padding: 50px;
+    
+}
+
+#main{
+    background-color: lightblue;
+}
+
+nav{
+
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+nav ul {
+
+    display: flex;
+}
+
+nav li{
+
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav a {
+
+    text-decoration: none; 
+    color: black; 
+}
+
+nav a:hover{
+
+    color: coral;
+}
+
+nav img{
+    display: flex;
+    width: auto;
+    max-height: 200px;
+}
+
+.menuButton{
+    display: flex;
+    align-items: flex-end; /* el flex end es para que se te ponga en la parte de abajo. (solo que no se me pone). Si no usas center*/
+    width: 100%;
+    /*background-color: aquamarine;*/
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+
