@@ -10,51 +10,45 @@
   <body>
     <div>
         <nav class="menu">
-            <img src="./assets/img/descarga.png" alt="Mi imagen de prueba" width="200px" type="video/mp4"> <!-- el width tambien funciona con por ejemplo "10%"-->
+            <img src="./assets/img/quemaa.jpg" alt="Mi imagen de prueba" width="200px"> <!-- el width tambien funciona con por ejemplo "10%"-->
             <div class="menuButton">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Socios</a></li>
+                <li><a href="#">Futbol</a></li>
+                <li><a href="https://tienda.cahuracan.com">Tienda</a></li>
             </ul>
             </div>
         </nav>
     </div>
     <section id="main">
         <div>
-            <h1>Titulo</h1>
-            <video src="./assets/video/vid_1x1_04.mp4" alt="Video" autoplay muted loop width="300px"
-            Tu navegador no admite el elemento <code>video</code>>
-            </video>
-            <p>
-                esta seccion <br> <!-- con el br hace el salto y arranca otro parrafo. es como hacer un enter-->
-                se utiliza para <br>
-                escribir parrafos 
-            </p>
+            <h1> <u>Club Atletico Huracán</u></h1>
 
-            <h1> Nuevo enfoque para la educacion de los chicos </h1>
+            <h3> 114 años de historia. </h3>
 
             <ul style="list-style-type: circle;"> <!-- lo quise hacer con article pero no le podia poner las viñetas sino-->
-            <li> Play Ground </li>
-            <li> Music </li>
-            <li> Arts </li>
-            <li> Healthy Food </li>
-            <li> Safe Transportation </li>
+            <li> Fundacion: 1 de Noviembre de 1908 </li>
+            <li> 13 Titulos oficiales </li>
+            <li> +25.000 socios </li>
+            <li> Presidente: David Garzon </li>
+            <li> Entrenador: Diego Dabove </li>
             </ul>
 
-            <h1> Learn About Us </h1>
-            <img src="./assets/img/img pag.jpg" alt="imagen" width="200px"> 
-            <p> <h2> La mejor escuela para tus hijos </h2> <br> 
-              En esta escuela tus hijos recibiran la mejor educacion y el mejor cuidado.             
+            <h1> <u>El Palacio</u> </h1>
+            <img src="./assets/img/palacio.jpg" alt="imagen" width="500px"> 
+            <p>   
+              Inagurado el 7 de septiembre de 1947, el Palacio cuenta con una capacidad de 48.314 espectadores, y unas dimensiones de 
+              105 x 70 mts. Se ubica en Avenida Amancio Alcorta 2570, en el barrio de Parque Patricios.              
             </p> 
-
-            <br> 
-            <button id="btnPp1">
-                Learn More 
+ 
+            <button id="btnPp1"><a href="https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Hurac%C3%A1n">
+              Mas Informacion
+            </a>
             </button>
 
-
-            <h2> Tipos de clases </h2>
+            <!-- <h2> Tipos de clases </h2>
             <ul style="list-style-type: circle;">
               <li> <h3> Drawing Class: </h3> Esta clase tiene un enfoque para aquellos niños mas creativos, los cuales les gusta dibujar. <br>
                 Tiene un precio de 290$ por mes. Para niños de 3 a 6 años. Horarios: de 8 a 10 am.
@@ -67,51 +61,43 @@
                 <h3> Basic Science: </h3> Esta clase es para los niños que buscan enfocarse en la ciencia. <br>
                 Tiene un precio de 290$ por mes. Para niños de 3 a 6 años. Horarios: de 8 a 10 am. 
               </li>            
-            </ul>
+            </ul> -->
 
-            <h2> Reserva el lugar para tu hijo </h2>
+            <h2> <u>Nuestros Jugadores</u> </h2>
+            Arquero: Lucas Chaves <img src="./assets/img/chaves.png" alt="imagen profesor" width="200px"> <br>
+            Defensor: Lucas Merolla <img src="./assets/img/merolla.jfif" alt="imagen profesor" width="200px"> <br>
+            Mediocampista: Franco Cristaldo <img src="./assets/img/cristaldo.webp" alt="imagen profesor" width="200px"> <br>
+            Delantero: Matias Coccaro <img src="./assets/img/coccaro.jpg" alt="imagen profesor" width="200px">
+
+            <h2> <u>¡Hacete socio!</u> </h2>
             Nombre: <input name="nombre" type="text">
             Mail: <input name="email" type="email">
-            Selecciona su clase: <select name="clase">
-              <option value="dr">Drawing Class</option>
-              <option value="ll">Language Learning</option>
-              <option value="bs">Basic Science</option>
-            </select>
-
-            <h2> Nuestros Profesores </h2>
-            Musica: Julia Smith <img src="" alt="imagen profesor"> <br>
-            Language: Jhon Doe <img src="" alt="imagen profesor"> <br>
-            Danza: Mollie Ros <img src="" alt="imagen profesor"> <br>
-            Arte: Donald Jhon <img src="" alt="imagen profesor">
-
-
-
+            DNI: <input type="number" name="text">
         </div>
     </section>
 
-    
+  </body>
     
     <footer>
-        <h3>About us:</h3>
+        <h3>Sobre Nosotros:</h3>
         <table border = "10px solid black">
-          <caption> <strong> Information </strong> </caption>
+          <caption> <strong> Informacion de la Sede Social </strong> </caption>
           <thead>
             <tr>
-              <th> Adress </th>
+              <th> Ubicacion </th>
               <th> Email </th>
-              <th> Phone </th>
+              <th> Telefono </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td> NY USA </td>
-              <td> info@example.com </td>
-              <td> +011 4576 3985 </td>
+              <td> Av. Caseros 3159 </td>
+              <td> cahuracan@sedesocial.com </td>
+              <td> 011 4911-9313 </td>
             </tr>
           </tbody>
         </table>
     </footer>
 
-  </body>
 
 </html>
