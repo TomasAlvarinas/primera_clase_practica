@@ -10,15 +10,25 @@ div{
 
 #main{
     background-color: whitesmoke;
+    color: black;
+}
+
+#main h1 {
+
+    color: red;
+}
+
+#main h2 {
+
     color: red;
 }
 
 nav{
-
-    background-color: red;
+    
     display: flex;
     flex-direction: row;
     padding: 10px;
+    background-image: url(https://pbs.twimg.com/media/CiYkCn8UUAAL6dK.jpg); 
 }
 
 nav ul {
@@ -35,7 +45,8 @@ nav li{
 nav a {
 
     text-decoration: none; 
-    color: black; 
+    color: red;
+    font-size: x-large; 
 }
 
 nav a:hover{
@@ -53,7 +64,6 @@ nav img{
     display: flex;
     align-items: flex-end; /* el flex end es para que se te ponga en la parte de abajo. (solo que no se me pone). Si no usas center*/
     width: 100%;
-    /*background-color: aquamarine;*/
     justify-content: flex-end;
     font-size: 20px;
 }
@@ -67,6 +77,7 @@ footer table{
 footer {
 
     background-color: whitesmoke;
+
 }
 
 #main div p{
@@ -81,4 +92,10 @@ footer {
 #btnPp1 a{
 
     text-decoration: none;
+}
+
+input {
+
+    background-color: red;
+    border-radius: 20px
 }
