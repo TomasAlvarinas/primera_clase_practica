@@ -1,11 +1,16 @@
 body{
 
     margin: 1cm;
-    background-color: darkred;
+    background-color: darkred
 }
 
 div{
     padding: 50px; 
+}
+
+#primera {
+
+    background-color: firebrick;
 }
 
 #main{
@@ -28,8 +33,11 @@ nav{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background-image: url(https://pbs.twimg.com/media/CiYkCn8UUAAL6dK.jpg); 
+    background-image: url(https://pbs.twimg.com/media/CiYkCn8UUAAL6dK.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
 
 nav ul {
 
@@ -47,6 +55,13 @@ nav a {
     text-decoration: none; 
     color: red;
     font-size: x-large; 
+}
+
+#menucito {
+
+    color: red;
+    font-size: x-large;
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -71,13 +86,21 @@ nav img{
 
 footer table{
 
-    border-color: red;
+    border-style: ridge;
+    border-radius: 20px;
 }
+
 
 footer {
 
-    background-color: whitesmoke;
+    background-color: white;
+    padding: 20px;
 
+}
+
+footer hr {
+
+    color: black;
 }
 
 
@@ -87,6 +110,7 @@ footer {
 }
 
 #main div img{
+
     display: flex;
 }
 
@@ -94,15 +118,59 @@ footer {
 #btnPp1 a{
 
     text-decoration: none;
+    color: black;
 }
 
-input {
 
-    background-color: red;
-    border-radius: 20px
+#inputEmail4 {
+
+    border-radius: 20px;
+    width: auto;
+    border-color: red;
+
 }
+
+#inputName4 {
+
+    border-radius: 20px;
+    width: auto;
+    border-color: red;
+}
+
+#inputDNI4 {
+
+    border-radius: 20px;
+    width: auto;
+    border-color: red;
+}
+
+#inputAddress4 {
+
+    border-radius: 20px;
+    width: auto;
+    border-color: red;
+}
+
+form div {
+
+    width: auto;
+    height: auto;
+    margin-bottom: auto;
+}
+
 
 ul {
 
     list-style-type: circle;
 }
+
+
+#carouselExampleFade {
+
+    width: auto;
+    height: auto;
+    border-width: 1cm;
+    border-style: double;
+    background-color: rgb(134, 132, 132);
+}
+
