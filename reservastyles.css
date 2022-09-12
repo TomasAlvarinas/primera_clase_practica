@@ -5,56 +5,13 @@ body{
 }
 
 div{
+
     padding: 18px; 
 }
 
 #primera {
 
     background-color: firebrick;
-}
-
-#main{
-    
-    color: black;
-}
-
-
-#main h1 {
-
-    color: red;
-    text-align: center;   
-}
-
-
-#main h2 {
-
-    color: red;
-}
-
-#titulo1 {
-
-    text-align: center;
-}
-
-#main div p{
-
-    font-size: 18px;
-}
-
-#main div img{
-
-    display: flex;
-}
-
-#main li {
-
-    font-size: large;
-}
-
-
-#main h3 {
-
-    text-align: center;
 }
 
 nav{
@@ -70,13 +27,13 @@ nav{
 nav ul {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
 }
 
 nav li{
 
-    display: flex; 
-    margin-right: 40px;
+    display: flex;
+    margin-right: 40px; 
     align-items: center;
 }
 
@@ -104,7 +61,6 @@ nav a:hover{
 
     color: coral;
 }
-
 
 #imgnav {
 
@@ -135,6 +91,7 @@ nav a:hover{
 }
 
 
+
 footer table{
 
     border-style: ridge;
@@ -144,7 +101,7 @@ footer table{
 
 footer {
 
-    background-color: white;
+    background-color: whitesmoke;
     padding: 20px;
 
 }
@@ -192,46 +149,32 @@ form div {
 }
 
 
-ul {
+.main h1 {
 
-    list-style-type: circle;
+    color: red; 
+    text-align: center;
+    font-size: 300%;
 }
 
 
-#carouselExampleControls {
+.card {
 
     width: auto;
     height: auto;
-    border-width: 1cm;
-    border-style: groove;
-    border-color: gray;
-    background-color: rgb(229, 229, 229); 
 }
 
-
-.card img {
-
-    height: auto;
-    width: auto;
-}
 
 .card:hover {
 
     transform: scale(1.02);
-}
+} 
 
-#campeon1 {
 
+#chachocard {
+
+    width: auto;
     height: 100%;
-    width: 100%;
 }
-
-#campeon2 {
-
-    height: 100%;
-    width: 100%;
-}
-
 
 .iconos {
 
@@ -250,23 +193,27 @@ ul {
     color: black;
 }
 
+#tabla {
 
-#quemita-iconos {
-
-    color: black;
-    font-size: 1.23em;
-    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    height: auto;
 }
 
 
-.hurtv {
+.card-text i {
 
-    display: flex;
-    justify-content: center;
+    font-size: large;
 }
 
-#htv {
+.card-header {
 
-    background-color: white;
+    background-image: url(titulo.png); /* ver como hacer para que funcione */
 }
 
+#resultados {
+
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-color: red;
+    border-width: 20px;
+}

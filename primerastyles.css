@@ -1,0 +1,126 @@
+body{
+
+    margin: 1cm;
+    background-image: url(https://fondosmil.com/fondo/25330.jpg);
+}
+
+div{
+    padding: 18px; 
+}
+
+#primera {
+
+    background-color: firebrick;
+}
+
+#main{
+    
+    color: black;
+}
+
+
+#main h1 {
+
+    color: red;
+    text-align: center;   
+}
+
+
+#main h2 {
+
+    color: red;
+}
+
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://pbs.twimg.com/media/CiYkCn8UUAAL6dK.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+}
+
+nav li{
+
+    display: flex;
+    margin-right: 40px; 
+    align-items: center;
+}
+
+nav a {
+
+    text-decoration: none; 
+    color: red;
+    font-size: 35px; 
+}
+
+#nav-link {
+
+    color: red;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+#nav-link:hover {
+
+    color: coral;
+}
+
+
+nav a:hover{
+
+    color: coral;
+}
+
+#imgnav {
+
+    display: flex;
+    width: auto;           
+    height: 150px;
+}
+
+.imagen-nav {
+
+    display: flex;
+    justify-content: center;
+}
+
+.menuButton1{
+
+    display: flex; 
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+.menuButton2{
+
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+.card img {
+
+    height: auto;
+    width: auto;
+}
+
+.card:hover {
+
+    transform: scale(1.02);
+}
+
+
+#cardsDeck {
+
+    padding-left: 25px;   
+}
