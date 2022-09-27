@@ -8,6 +8,7 @@ div{
     padding: 18px; 
 }
 
+
 #primera {
 
     background-color: firebrick;
@@ -21,14 +22,17 @@ div{
 
 #main h1 {
 
-    color: red;
-    text-align: center;   
+    color: white;
+    background-color: red;
+    text-align: center;  
+    font-size: 60px; 
 }
 
 
 #main h2 {
 
     color: red;
+    font-size: 40px;
 }
 
 nav{
@@ -37,7 +41,8 @@ nav{
     flex-direction: row;
     background-image: url(https://pbs.twimg.com/media/CiYkCn8UUAAL6dK.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: scroll; 
 }
 
 
@@ -83,7 +88,7 @@ nav a:hover{
 
     display: flex;
     width: auto;           
-    height: 150px;
+    height: 180px;
 }
 
 .imagen-nav {
@@ -120,7 +125,110 @@ nav a:hover{
 }
 
 
-#cardsDeck {
+.carousel-inner {
 
-    padding-left: 25px;   
+    width: auto;
+    height: auto;
+    border-width: 10px;
+    border-style: solid;
 }
+
+.carousel-inner h5 {
+
+    color: black;
+}
+
+
+footer table{
+
+    border-style: ridge;
+    border-radius: 20px;
+}
+
+
+footer {
+
+    background-color: whitesmoke;
+    padding: 20px;
+
+}
+
+footer hr {
+
+    color: black;
+}
+
+
+#inputEmail4 {
+
+    border-radius: 20px;
+    width: auto;
+    border-color: red;
+
+}
+
+#inputName4 {
+
+    border-radius: 20px;
+    width: auto;
+    border-color: red;
+}
+
+#inputDNI4 {
+
+    border-radius: 20px;
+    width: auto;
+    border-color: red;
+}
+
+#inputAddress4 {
+
+    border-radius: 20px;
+    width: auto;
+    border-color: red;
+}
+
+form div {
+
+    width: auto;
+    height: auto;
+    margin-bottom: auto;
+}
+
+.iconos {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+
+    color: red;
+    font-size: 2.5em;
+}
+
+.icon:hover {
+
+    color: black;
+}
+
+footer h2 {
+
+    color: black;
+}
+
+#resultados {
+
+    background-image: url(https://img.freepik.com/vector-gratis/ondulado-rojo-fondo-semitono_1409-1274.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    border-color: red;
+    border-width: 10px;
+}
+
+.col-lg-6 h2 {
+
+    text-align: center;
+}
+

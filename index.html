@@ -12,6 +12,7 @@
 
     <script src="https://kit.fontawesome.com/1b9b89234a.js" crossorigin="anonymous"></script>
 
+
   </head>
 
   <body>
@@ -22,18 +23,18 @@
           <div class="container-fluid">
             <div class="row">
 
-              <div class="col-lg-5">
+              <div class="col-md-5">
                 <div class="menuButton1">
 
                 <ul>
                 <li><a href="index.html"><strong>Inicio</strong></a></li>
-                <li><a href="#"><strong>Socios</strong></a></li>
+                <li><a href="socios.html"><strong>Socios</strong></a></li>
                 </ul>       
 
                 </div>
               </div>
 
-              <div class="col-lg-2">
+              <div class="col-md-2">
                 <div class="imagen-nav">
               
                 <img src="./assets/img/quema-removebg-preview (1).png" alt="img escudo nav" id="imgnav"> 
@@ -42,7 +43,7 @@
               </div>
 
 
-              <div class="col-lg-5">
+              <div class="col-md-5">
                 <div class="menuButton2">
               
                 <ul>
@@ -73,7 +74,7 @@
             <div class="container-fluid">
               <div class="row">
 
-                <div class="col-lg-4">
+                <div class="col-md-4">
                   <div class="card bg-dark text-white" id="campeon1">
                     <img src="./assets/img/campeon2.jpg" class="card-img" alt="img huracan campeon">
                     <div class="card-img-overlay">
@@ -83,7 +84,7 @@
                 </div>
 
 
-              <div class="col-lg-4">    
+              <div class="col-md-4">    
                 <h1 class="animate__animated animate__bounceInDown" id="titulo1"> <u> Club Atletico Huracan </u> <span class="badge bg-secondary"></span></h1>
                 <br>
                 <h3> 114 años de historia. </h3>
@@ -98,7 +99,7 @@
               </div>    
             
           
-              <div class="col-lg-4">
+              <div class="col-md-4">
                 <div class="card bg-dark text-white" id="campeon2">
                   <img src="./assets/img/campeon.jpg" class="card-img" alt="img huracan campeon">
                   <div class="card-img-overlay">
@@ -116,9 +117,11 @@
             
             <div class="container-fluid">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
+
                   <h1> <u>El Palacio</u> </h1>
-                  <div class="card" style="width: 42rem;">
+                  <br>
+                  <div class="card"  id="palacio">
                     <img src="./assets/img/palacio.jpg" class="card-img-top" alt="imagen palacio">
                     <div class="card-body">
                       <h5 class="card-title">Nuestra Casa</h5>
@@ -129,59 +132,26 @@
                     </div>
                   </div>
                 </div>
-        
-                <div class="col-lg-6">
-                  <h1> <u> La Quemita </u> </h1>
-                  
-                  <p style="font-size: 20px; text-decoration: solid;"> La Quemita es un complejo polideportivo, donde entrena el plantel profesional, y donde los socios pueden ir a disfrutar su tiempo libre. </p>  
-                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="./assets/img/quemita1.jpg" class="d-block w-100" alt="imagen la quemita">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./assets/img/laquemitapileta.png" class="d-block w-100" alt="imagen la quemita">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./assets/img/quemitaentrada.png" class="d-block w-100" alt="imagen la quemita">
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
-                    </div>
-                  </div>
-                  
-                  <br>
-                  <h3> <u>Informacion</u> </h3>
-                  <section id="quemita-iconos">
-                  <i class="fa-brands fa-whatsapp"> 11-6247-4375 </i>
-                  <br>
-                  <i class="fa-solid fa-phone"> 4637-6395 </i>
-                  <br>
-                  <i class="fa-solid fa-location-dot"> Mariano Acosta 1981, Ciudad Autonoma de Buenos Aires </i>
-                  </section>
-
-                  </div> 
-                </div>
-              </div>
-
-
-            <div class="container-fluid">
+      
+            <div class="container-fluid" id="htv">
               <div class="row">
                 <div class="col-lg-12">
-                  <h1 class="hurtv"> <u> Huracan TV </u> </h1>
+                  <h1 class="hurtv"> <u> Huracan TV <i class="fa-solid fa-tv"></i> </u> </h1>
                 </div>
-                  <div class="col-lg-6" id="htv">
-                    <p><h2><u>¡Mas beneficios para el socio!</u></h2></p>
-                    <p>Con Red Quemera, podras disfrutar de las mejores ofertas. No esperes mas, ¡asociate ahora!</p>
+                  <div class="col-lg-4">
+
+                    <div class="card" id="htvcontent">
+                      <h2 class="card-header"> Nuestro Canal <i class="fa-regular fa-circle-check"></i> </h2>
+                      <div class="card-body">
+                        <h5 class="card-title">La mejor informacion y novedades, estan acá.</h5>
+                        <p class="card-text">Con Huracan TV, tenes las mejores novedades e historias de los protagonistas del club.</p>
+                        <p> <i class="fa-regular fa-thumbs-up"></i> Seguinos acá: <a href="https://www.youtube.com/c/cahuracan" style="color: red;"> https://www.youtube.com/c/cahuracan </a></p>
+                      </div>
+                    </div>
+
                   </div>
-                  <div class="col-lg-6">
-                    <a href="https://redquemera.cahuracan.com/"><img src="./assets/img/redquemera.png"></a>
+                  <div class="col-lg-8">
+                    <iframe src="https://www.youtube.com/embed/9CSOZBP6XO0" title="- Huracán TV - "Estas son experiencias que me sirven frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
 
                 
@@ -192,7 +162,7 @@
     
     <footer>
       <hr> 
-        <h3> <u>Sobre Nosotros:</u></h3>
+        <h2> <u>Sobre Nosotros:</u></h2>
         <br>
         <caption> <strong> Informacion de la Sede Social </strong> </caption>
         <table class="table table-bordered border-danger" border = "10px solid black">        
@@ -215,7 +185,7 @@
         
       <br>   
       <form class="row g-3">
-        <h2> <u> ¡Hacete socio! </u></h2>
+        <h3> <u> ¡Hacete socio! </u></h3>
         <div class="col-md-3">
           <label for="inputEmail4" class="form-label">Email</label>
           <input type="email" class="form-control" id="inputEmail4" placeholder="huracan@gmail.com">
